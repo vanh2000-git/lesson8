@@ -15,7 +15,7 @@ switch (diadiem) {
     case 'Pháp':
         alert('50tr');
         break;
-    case 'Đầi Loan':
+    case 'Đài Loan':
     case 'Trung Quốc':
         alert("20tr");
         break;
@@ -30,7 +30,7 @@ switch (diadiem) {
                 alert("100tr");
                 break;
         }
-    default:
-        alert('nhập địa điểm du lịch để nhận ước tính chi phí');
         break;
+    default:
+        alert("gi cung dc");
 }
