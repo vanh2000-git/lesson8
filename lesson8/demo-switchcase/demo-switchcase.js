@@ -1,5 +1,5 @@
-let browser = prompt("Nhập địa điểm du lịch")
-switch (browser) {
+let diadiem = prompt("Nhập địa điểm du lịch")
+switch (diadiem) {
     case 'Sapa':
         alert("4 triệu");
         break;
@@ -16,5 +16,6 @@ switch (browser) {
         alert('50tr');
         break;
     default:
-        alert('Nhập địa điểm du lịch để nhận ước tính chi phí');
+        alert('nhập địa điểm du lịch để nhận ước tính chi phí')
+
 }
