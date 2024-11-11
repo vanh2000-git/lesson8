@@ -15,7 +15,22 @@ switch (diadiem) {
     case 'Pháp':
         alert('50tr');
         break;
+    case 'Đầi Loan':
+    case 'Trung Quốc':
+        alert("20tr");
+        break;
+    case 'Châu Âu':
+        alert("60tr");
+        let cachthuc = prompt("Bạn đi theo tour hay cá nhân?")
+        switch (cachthuc){
+            case 'tour':
+                alert("60tr");
+                break;
+            case 'cá nhân':
+                alert("100tr");
+                break;
+        }
     default:
-        alert('nhập địa điểm du lịch để nhận ước tính chi phí')
-
+        alert('nhập địa điểm du lịch để nhận ước tính chi phí');
+        break;
 }
